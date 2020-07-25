@@ -11,7 +11,7 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="A Hundred Days Off" startnode="5" creator="Twine" creator-version="2.3.9" ifid="8182583E-8834-417C-BCE8-AFB7087B2BD3" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
+<tw-storydata name="A Hundred Days Off" startnode="1" creator="Twine" creator-version="2.3.9" ifid="8182583E-8834-417C-BCE8-AFB7087B2BD3" zoom="1" format="Harlowe" format-version="3.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
 
 html {
 }
@@ -28,17 +28,13 @@ tw-passage {
   background: rgba(0, 0, 0, 0.75);
   padding: 20px;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Start" tags="" position="1086,603.5" size="100,100">**Approaching Allos**
-Allos is situated in the middle of a mountain range, with a lake.
-[[Go east into Allos-&gt;Allos]]
-[[Go west toward Lonas-&gt;Approaching Lonas]]
-(enchant: ?Page, (background:&quot;media/allos.jpg&quot;))</tw-passagedata><tw-passagedata pid="2" name="Dog" tags="" position="1065,866.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="3" name="Allos" tags="" position="1273,684.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name="Approaching Lonas" tags="" position="1086,753.5" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="5" name="Boot Logo" tags="" position="324,109.5" size="100,100">GFX: Company logo.
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Boot Logo" tags="cutscene" position="324,109" size="100,100">GFX: Company logo.
 VFX: Quick animation.
 SFX: Simple fanfare.
 
 [[Wait ~2 Seconds-&gt;Boot Legal]]
 
-(link:&quot;Technical Information&quot;)[**Technical Information**: While this screen is shown, the console is unpacking the graphics that will be used for the rest of the game. This will take approximately 1750ms.]</tw-passagedata><tw-passagedata pid="6" name="Boot Legal" tags="" position="474,109.5" size="100,100">GFX: Simple one-color version of the game logo
+(link:&quot;Technical Information&quot;)[**Technical Information**: While this screen is shown, the console is unpacking the graphics that will be used for the rest of the game. This will take approximately 1750ms.]</tw-passagedata><tw-passagedata pid="2" name="Boot Legal" tags="cutscene" position="474,109" size="100,100">GFX: Simple one-color version of the game logo
 VFX: None
 SFX: None
 
@@ -50,27 +46,27 @@ Blah blah blah, legal stuff.
 [[Wait-&gt;Intro 1]]
 [[Press A-&gt;Intro 1]]
 
-(link:&quot;Technical Information&quot;)[**Technical Information**: This screen is run from a different bank than the main game loop. The screen is shown for a minimum of one second, and auto-proceeds to the next screen after five seconds.]</tw-passagedata><tw-passagedata pid="7" name="Intro 1" tags="" position="635,110.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos.jpg&quot;))VFX: A mountain pass, focusing on a //BOY// who is sparring with a //FRIEND//. The BOY and FRIEND are using swords, swiping at each other, jumping, and pressing each other back and forth.
+(link:&quot;Technical Information&quot;)[**Technical Information**: This screen is run from a different bank than the main game loop. The screen is shown for a minimum of one second, and auto-proceeds to the next screen after five seconds.]</tw-passagedata><tw-passagedata pid="3" name="Intro 1" tags="cutscene bg:allos.jpg" position="635,110" size="100,100">VFX: A mountain pass, focusing on a //BOY// who is sparring with a //FRIEND//. The BOY and FRIEND are using swords, swiping at each other, jumping, and pressing each other back and forth.
 
 &quot;VOICE: My father&#39;s business was always more active in the autumn.&quot;
 
-[[Press A-&gt;Intro 2]]</tw-passagedata><tw-passagedata pid="8" name="Intro 2" tags="" position="637,267.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-outskirts.jpg&quot;))VFX: The BOY gains the advantage, and the FRIEND runs away; the BOY chases him. The camera follows the BOY as he chases his friend down the mountain pass into the outskirts of a TOWN, where there are a few small buildings and large stones. The FRIEND has moved off the screen, and the BOY can&#39;t find him.
+[[Press A-&gt;Intro 2]]</tw-passagedata><tw-passagedata pid="4" name="Intro 2" tags="cutscene" position="637,267" size="100,100">VFX: The BOY gains the advantage, and the FRIEND runs away; the BOY chases him. The camera follows the BOY as he chases his friend down the mountain pass into the outskirts of a TOWN, where there are a few small buildings and large stones. The FRIEND has moved off the screen, and the BOY can&#39;t find him.
 
 &quot;VOICE: As I remember it, I was more active in the autumn too.&quot;
 
-[[Press A-&gt;Intro 3]]</tw-passagedata><tw-passagedata pid="9" name="Intro 3" tags="" position="637,417.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-outskirts.jpg&quot;))VFX: The FRIEND jumps out from behind a stone, surprising the BOY. They resume their swordfighting.
+[[Press A-&gt;Intro 3]]</tw-passagedata><tw-passagedata pid="5" name="Intro 3" tags="cutscene bg:allos-outskirts.jpg" position="637,417" size="100,100">VFX: The FRIEND jumps out from behind a stone, surprising the BOY. They resume their swordfighting.
 
 &quot;VOICE: Usually not the way my father would have preferred.&quot;
 
-[[Press A-&gt;Intro 4]]</tw-passagedata><tw-passagedata pid="10" name="Intro 4" tags="" position="637,567.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-fountain.jpg&quot;))VFX: The FRIEND gains the upper hand, and begins to press the BOY backward through the village. They pass adobe houses and a large fountain, where a WOMAN is standing. The BOY gets pressed backward into the fountain and falls in; the FRIEND strikes a victory pose.
+[[Press A-&gt;Intro 4]]</tw-passagedata><tw-passagedata pid="6" name="Intro 4" tags="cutscene bg:allos-fountain.jpg" position="637,567" size="100,100">VFX: The FRIEND gains the upper hand, and begins to press the BOY backward through the village. They pass adobe houses and a large fountain, where a WOMAN is standing. The BOY gets pressed backward into the fountain and falls in; the FRIEND strikes a victory pose.
 
 &quot;VOICE: In those days, I dreamt of joining the Imperial Guard.&quot;
 
-[[Press A-&gt;Intro 5]]</tw-passagedata><tw-passagedata pid="11" name="Intro 5" tags="" position="637,718.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-docks.jpg&quot;))VFX: The BOY jumps out of the fountain, swiping at the FRIEND. The FRIEND runs offscreen; the BOY shakes the water out of his hair, and chases after him. The camera follows as the BOY runs through the rest of the town down to a dock. As they run onto the dock, a bird sitting on one of the piers flies away. The swordfight resumes.
+[[Press A-&gt;Intro 5]]</tw-passagedata><tw-passagedata pid="7" name="Intro 5" tags="cutscene bg:allos-docks.jpg" position="637,718" size="100,100">VFX: The BOY jumps out of the fountain, swiping at the FRIEND. The FRIEND runs offscreen; the BOY shakes the water out of his hair, and chases after him. The camera follows as the BOY runs through the rest of the town down to a dock. As they run onto the dock, a bird sitting on one of the piers flies away. The swordfight resumes.
 
 &quot;VOICE: My father had other plans, though.&quot;
 
-[[Press A-&gt;Intro 6]]</tw-passagedata><tw-passagedata pid="12" name="Intro 6" tags="" position="637,868.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-docks.jpg&quot;))VFX: A //MAN// walks along the docks and approaches the BOY and FRIEND.
+[[Press A-&gt;Intro 6]]</tw-passagedata><tw-passagedata pid="8" name="Intro 6" tags="cutscene" position="637,868" size="100,100">VFX: A //MAN// walks along the docks and approaches the BOY and FRIEND.
 
 &quot;MAN: There you are!&quot;
 
@@ -84,7 +80,7 @@ VFX: The BOY and FRIEND stop fighting; the BOY does not turn around to face the 
 
 &quot;VOICE: Yes, darling, that&#39;s your great grandfather, who was very concerned about making sure I&#39;d collected my skins.&quot;
 
-[[Press A-&gt;Intro 7]]</tw-passagedata><tw-passagedata pid="13" name="Intro 7" tags="" position="637,1018.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-docks.jpg&quot;))VFX: The BOY&#39;s shoulders slump.
+[[Press A-&gt;Intro 7]]</tw-passagedata><tw-passagedata pid="9" name="Intro 7" tags="cutscene" position="637,1018" size="100,100">VFX: The BOY&#39;s shoulders slump.
 
 &quot;BOY: Aww...&quot;
 
@@ -94,46 +90,138 @@ VFX: The BOY turns and walks toward the MAN.
 
 &quot;MAN: When I was your age, I had a route twice the size of yours, and I had to run it three times a day...&quot;
 
-[[Press A-&gt;Intro 8]]</tw-passagedata><tw-passagedata pid="14" name="Intro 8" tags="" position="637,1168.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-fountain.jpg&quot;))VFX: The BOY and MAN walk through the village, passing the fountain and the WOMAN.
+[[Press A-&gt;Intro 8]]</tw-passagedata><tw-passagedata pid="10" name="Intro 8" tags="cutscene bg:allos-fountain.jpg" position="637,1168" size="100,100">VFX: The BOY and MAN walk through the village, passing the fountain and the WOMAN.
 
 &quot;MAN: ...now, we only were given a small pack to carry our haul in...&quot;
 
 &quot;VOICE: My father was the best trapper in the free cities.&quot;
 
-[[Press A-&gt;Intro 9]]</tw-passagedata><tw-passagedata pid="15" name="Intro 9" tags="" position="637,1318.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-outskirts.jpg&quot;))VFX: The BOY and MAN approach the outskirts of the town, and head toward the forest.
+[[Press A-&gt;Intro 9]]</tw-passagedata><tw-passagedata pid="11" name="Intro 9" tags="cutscene bg:allos-outskirts.jpg" position="637,1318" size="100,100">VFX: The BOY and MAN approach the outskirts of the town, and head toward the forest.
 
 &quot;VOICE: ...and he was determined that I would one day be the second best.&quot;
 
-[[Press A-&gt;Intro 10]]</tw-passagedata><tw-passagedata pid="16" name="Intro 10" tags="" position="637,1468.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-clearing.jpg&quot;))VFX: The BOY and MAN arrive in a clearing.
+[[Press A-&gt;Intro 10]]</tw-passagedata><tw-passagedata pid="12" name="Intro 10" tags="cutscene bg:allos-clearing.jpg" position="637,1468" size="100,100">(if:$fArrivalScene != 0)[(go-to:&quot;Intro 11&quot;)](set:$fArrivalScene to 1)VFX: The BOY and MAN arrive in a clearing.
 
 &quot;MAN: ...and that&#39;s only if we caught enough to make our own clothes! And - ah! We&#39;re here. Do you have your sling?&quot;
 
-UI: The inventory menu appears, as though you&#39;d pressed Select.
-
-(link:&quot;Dismiss the menu with your sword equipped&quot;)[VFX: You dismiss the menu with your sword equipped.
-
-&quot;MAN: You&#39;re not going to get gull feathers with a sword, boy. You&#39;re going to need your sling.&quot;
-]
-(link:&quot;Dismiss the menu with your hands equipped&quot;)[VFX: You dismiss the menu with your bare hands equipped.
-
-&quot;MAN: You&#39;re not going to be able to get close enough to the gulls to catch them with your bare hands, boy. Get your sling!&quot;
-]
-(link:&quot;Dismiss the menu with your sling equipped&quot;)[VFX: You dismiss the menu with your sling equipped.
-
-&quot;MAN: That&#39;s a lad. Now remember, you can&#39;t run about making noise or you&#39;ll scare the gulls away.&quot;
-
-[[Press A-&gt;Intro 11]]]
-</tw-passagedata><tw-passagedata pid="17" name="Intro 11" tags="" position="637,1618.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-clearing.jpg&quot;))VFX: A gull alights on a tree. The MAN whirls his sling and fires, striking the gull with a small projectile. The gull disappears in a poof, dropping a feather that floats to the ground.
+[[Press Select-&gt;Menu]]</tw-passagedata><tw-passagedata pid="13" name="Intro 12" tags="cutscene" position="634,1772" size="100,100">VFX: A gull alights on a tree. The MAN whirls his sling and fires, striking the gull with a small projectile. The gull disappears in a poof, dropping a feather that floats to the ground.
 
 &quot;MAN: There, just like that. We&#39;ll need about fifty in all.&quot;
 
-[[Press A-&gt;Intro 12]]</tw-passagedata><tw-passagedata pid="18" name="Intro 12" tags="" position="637,1768.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-clearing.jpg&quot;))VFX: The MAN kneels down next to the BOY.
+[[Press A-&gt;Intro 13]]</tw-passagedata><tw-passagedata pid="14" name="Intro 13" tags="cutscene" position="633,1922" size="100,100">VFX: The MAN kneels down next to the BOY.
 
 &quot;MAN: You&#39;ll do fine, HAROLD. Just remember, don&#39;t go too far up, where the hawks live. Stick near the low forest where the gulls are.&quot;
 
 VFX: The MAN walks off. HAROLD looks after him, walks over to the fallen feather, and picks it up. The cutscene ends.
 
-[[Press A-&gt;Forest Clearing]]</tw-passagedata><tw-passagedata pid="19" name="Forest Clearing" tags="" position="637,1918.5" size="100,100">(enchant: ?Page, (background:&quot;media/allos-clearing.jpg&quot;))You are in a clearing in the pine forest.</tw-passagedata></tw-storydata>
+[[Press A-&gt;Forest Clearing]]</tw-passagedata><tw-passagedata pid="15" name="Forest Clearing" tags="bg:allos-clearing.jpg" position="998,1845" size="100,100">You are in a clearing in the pine forest that lies just outside Allos.
+
+(link:&quot;Fight a Gull&quot;)[(display:&quot;Mob: Gull&quot;)(goto:&quot;Fight&quot;)]
+[[Go Into The Forest-&gt;Forest]]
+[[Go Toward Allos-&gt;Allos Outskirts]]</tw-passagedata><tw-passagedata pid="16" name="Player Status" tags="footer" position="985,1544" size="100,100">(set: _tags to (passage:)&#39;s tags)(if: not (_tags contains any of (a:&quot;cutscene&quot;,&quot;menu&quot;)))[
+
+You have $PlayerHP hit points and $PlayerXP experience points. You are level $PlayerLevel.
+
+[[Press Select-&gt;Menu]]]</tw-passagedata><tw-passagedata pid="17" name="Menu" tags="menu" position="1105,1150" size="100,100">[[Items-&gt;Menu: Items]]
+[[Equipment-&gt;Menu: Equipment]]
+
+(link:&quot;Exit&quot;)[(go-to:last of (history:where not (&quot;Menu&quot; is in its name)))]</tw-passagedata><tw-passagedata pid="18" name="Menu: Items" tags="menu" position="1030,1300" size="100,100">(for: each _item, ...(datanames: $PlayerItems))[_item
+]
+
+[[Exit-&gt;Menu]]</tw-passagedata><tw-passagedata pid="19" name="Menu: Equipment" tags="menu" position="1180,1300" size="100,100">(for: each _item, ...(datanames: $PlayerEquipment))[_item ((if: $playerWeapon is _item)[(link:&quot;Unequip&quot;)[(set:$playerWeapon to &quot;&quot;)(go-to:&quot;Menu: Equipment&quot;)]](else:)[(link:&quot;Equip&quot;)[(set:$playerWeapon to _item)(go-to:&quot;Menu: Equipment&quot;)]])
+]
+[[Exit-&gt;Menu]]</tw-passagedata><tw-passagedata pid="20" name="Intro 11" tags="cutscene" position="636,1607" size="100,100">(if:$playerWeapon is &quot;Sword&quot;)[&quot;MAN: You&#39;re not going to get gull feathers with a sword, boy. You&#39;re going to need your sling.&quot;
+
+[[Press Select-&gt;Menu]]](else-if:$playerWeapon is &quot;&quot;)[&quot;MAN: You&#39;re not going to be able to get close enough to the gulls to catch them with your bare hands, boy. Get your sling!&quot;
+
+[[Press Select-&gt;Menu]]](else-if:$playerWeapon is &quot;Sling&quot;)[&quot;MAN: That&#39;s a lad. Now remember, you can&#39;t run about making noise or you&#39;ll scare the gulls away.&quot;
+
+[[Press A-&gt;Intro 12]]](else:)[&quot;MAN: Stop fooling about, boy! Equip your sling!
+
+[[Press Select-&gt;Menu]]]</tw-passagedata><tw-passagedata pid="21" name="Player Initialize" tags="startup" position="249,308" size="100,100">{
+	(set:
+		$PlayerHP to 100,
+		$PlayerXP to 0,
+		$PlayerLevel to 0,
+		$PlayerInventory to (dm:),
+		$PlayerEquipment to (dm:
+			&quot;Sword&quot;, 1,
+			&quot;Sling&quot;, 1
+		),
+		$PlayerItems to (dm:)
+	)
+}</tw-passagedata><tw-passagedata pid="22" name="Background Setter" tags="header" position="399,304" size="100,100">(set:_bgTags to (find: _tag where 1stto3rd of _tag matches &quot;bg:&quot;, ...tags of (passage:)))(if:length of _bgTags &gt; 0)[(set: $pageBg to 4thtolast of 1st of _bgTags)](if:$pageBg != 0)[(enchant: ?Page, (background:&quot;media/&quot; + $pageBg))]</tw-passagedata><tw-passagedata pid="23" name="Forest" tags="" position="1266,1941" size="100,100">You are deep in the forest outside Allos.
+
+[[Back To The Clearing-&gt;Forest Clearing]]</tw-passagedata><tw-passagedata pid="24" name="Allos Outskirts" tags="bg:allos-outskirts.jpg" position="927,2338" size="100,100">This is the edge of the town of Allos.
+
+[[Go Toward The Forest-&gt;Forest Clearing]]
+[[Go Toward The Mountain-&gt;Mountain Pass]]
+[[Go Into Allos-&gt;Allos]]</tw-passagedata><tw-passagedata pid="25" name="Allos" tags="bg:allos-fountain.jpg" position="788,2264" size="100,100">This is the town of Allos.
+
+[[Leave Town-&gt;Allos Outskirts]]
+[[Go To The Docks-&gt;Allos Docks]]</tw-passagedata><tw-passagedata pid="26" name="Allos Docks" tags="bg:allos-docks.jpg" position="650,2116" size="100,100">These are the Allos Docks.
+
+[[Back To Town Square-&gt;Allos]]</tw-passagedata><tw-passagedata pid="27" name="Fight" tags="menu" position="220,1564" size="100,100">{
+	(set:_weapon to $playerWeapon, _mobName to $mob&#39;s name)
+	(if:_weapon is &quot;&quot;)
+	[
+		(set:_weapon to &quot;Hands&quot;)
+	]
+	(if:$mob&#39;s defense contains _weapon)
+	[
+		(set:$defense to _weapon of $mob&#39;s defense)
+	]
+	(else:)
+	[
+		(set:$defense to &quot;*&quot; of $mob&#39;s defense)
+	]
+}You are fighting a _mobName using your _weapon. The _mobName has (print:$mob&#39;s hp) hit points.(if:$defense contains &quot;message&quot;)[
+
+(print:&quot;message&quot; of $defense)](if:(random:0,100) &gt; 100 - &quot;pct&quot; of $defense)[
+
+(print:&quot;hitmsg&quot; of $defense)(set:$mob&#39;s hp to ($mob&#39;s hp - 1))(if:$mob&#39;s hp &gt; 0)[
+
+The _mobName now has (print: $mob&#39;s hp) hit points.](else:)[
+
+The _mobName is defeated!
+
+(set:$PlayerXP to ($PlayerXP + $mob&#39;s xp))You gain (print: $mob&#39;s xp) XP. You now have $PlayerXP XP.
+
+(link:&quot;Leave&quot;)[(go-to:last of (history:where not (&quot;Fight&quot; is in its name)))]]
+](else:)[
+
+(print:&quot;missmsg&quot; of $defense)(if:&quot;fail&quot; of $defense is &quot;flee&quot;)[
+
+The _mobName flees!
+(set:$defense to undefined)
+(set:$mob to undefined)
+]]
+(if:$mob is 0)[
+(link:&quot;Leave&quot;)[(go-to:last of (history:where not (&quot;Fight&quot; is in its name)))]
+]</tw-passagedata><tw-passagedata pid="28" name="Weapon: Sling" tags="" position="233,1766" size="100,100">Holding B, you aim by using the D-pad and line up your shot. While aiming, the enemy movement slows down considerably, but does not stop. When you release B, Harold swings the sling around his head and releases a stone in the selected direction.</tw-passagedata><tw-passagedata pid="29" name="Mob: Gull" tags="" position="233,1960" size="100,100">(set: $mob to (dm:
+	&quot;name&quot;, &quot;Gull&quot;,
+	&quot;hp&quot;, 1,
+	&quot;xp&quot;, 1,
+	&quot;drops&quot;, (dm:
+		&quot;Feather&quot;, (random: 1, 3)
+	),
+	&quot;defense&quot;, (dm:
+		&quot;Sling&quot;, (dm:
+			&quot;pct&quot;, 90,
+			&quot;dmg&quot;, 1,
+			&quot;fail&quot;, &quot;flee&quot;,
+			&quot;missmsg&quot;, &quot;The stone misses the Gull and clatters to the ground.&quot;,
+			&quot;hitmsg&quot;, &quot;The stone strikes the Gull!&quot;
+		),
+		&quot;*&quot;, (dm:
+			&quot;pct&quot;, 0,
+			&quot;fail&quot;, &quot;flee&quot;,
+			&quot;missmsg&quot;, &quot;You can&#39;t get near the monster with that weapon!&quot;
+		)
+	)
+))</tw-passagedata><tw-passagedata pid="30" name="Mountain Pass" tags="bg:allos.jpg" position="1147,2206" size="100,100">This is a mountain pass overlooking the town of Allos.
+
+[[Head Toward Allos-&gt;Allos Outskirts]]</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
